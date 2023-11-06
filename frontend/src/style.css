@@ -1,0 +1,167 @@
+.loginPage{
+    background-image: url('./assets/Image3.jpeg');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("./assets/Image3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.center-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.register{
+    background-color: white;
+}
+
+.registerform{
+    width: 282px;
+    height:500px;
+}
+
+.custom-btn {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.col-md-3{
+  height: 35rem;
+  background-color:darkgrey;
+}
+
+.eye-icon-button {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px
+}
+
+.nav-link{
+  font-size: larger;
+}
+
+.custom-btn:hover {
+  background-color: #28a745; /* Change color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+.shadow-lg{
+    height: 500px;
+}
+
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+}
+
+/* src/components/StudentDashboard.css */
+.student-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Style the Logout button */
+  .logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+
+  /* CSS (you can include this in a separate CSS file or within a style tag in your component) */
+
+.student-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.profile-card {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-info h4 {
+  margin: 10px 0;
+}
+
+.edit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add additional styling as needed */
+
+  
+  /* Style the EditProfile form */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
